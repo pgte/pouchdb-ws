@@ -2,7 +2,7 @@
 
 PouchDB over websockets provider.
 
-Goes well with pouchdb-ws-server.
+Goes well with pouchdb-ws-proxy.
 
 # Install
 
