@@ -1,0 +1,28 @@
+{
+  "name": "pouchdb-ws",
+  "version": "0.0.1",
+  "description": "PouchDB over websockets adapter",
+  "main": "lib/index.js",
+  "scripts": {
+    "browserify": "browserify lib/index -o build/pouchdb-ws.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tes/pouchdb-ws.git"
+  },
+  "author": "pgte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tes/pouchdb-ws/issues"
+  },
+  "homepage": "https://github.com/tes/pouchdb-ws",
+  "dependencies": {
+    "argsarray": "0.0.1",
+    "bluebird": "^2.3.11",
+    "pouchdb-extend": "^0.1.2",
+    "socket.io-client": "^1.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.3"
+  }
+}
