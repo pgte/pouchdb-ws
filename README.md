@@ -35,6 +35,14 @@ remoteDB.get('key', function(err, value) {
 });
 ```
 
+# Authentication
+
+You can use a special authenticate command to authenticate a session into the server proxy:
+
+```javascript
+PouchWS.authenticate(token);
+```
+
 # License
 
 MIT
